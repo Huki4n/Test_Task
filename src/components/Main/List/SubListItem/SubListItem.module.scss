@@ -1,0 +1,75 @@
+.item{
+
+  display: flex;
+  gap:15px;
+  color:var(--color-dark);
+  cursor: pointer;
+  &NewGap{
+    display:flex;
+    gap:30px;
+  }
+}
+.expanded{
+  &Plus{
+    position: relative;
+
+    width:20px;
+    height:20px;
+    background-color: var(--color-orange);
+    border-radius: 100%;
+
+    &:before{
+      content:"";
+      background-image:url('../../../../assets/Interactions/smallPlus.svg');
+      background-position: center center;
+      background-repeat:no-repeat;
+      position: absolute;
+
+      width:20px;
+      height:20px;
+    }
+  }
+  &Minus {
+    position: relative;
+
+    width:20px;
+    height:20px;
+    background-color: var(--color-orange);
+    border-radius: 100%;
+
+    &:before {
+      content: "";
+      background-image: url('../../../../assets/Interactions/minus.svg');
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: absolute;
+
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.num{
+  color: var(--color-orange);
+}
+.children{
+  margin-left: 20px;
+}
+.loss{
+  font-weight: 300;
+}
+.virtual{
+  font-weight: 300;
+}
+.barcode{
+  font-weight: bold;
+}
+.button{
+   display: flex;
+   align-items: center;
+   gap:5px;
+
+   color:var(--color-orange);
+   font-size: 14px;
+   font-weight:400;
+ }

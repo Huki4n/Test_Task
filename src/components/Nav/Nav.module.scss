@@ -1,0 +1,21 @@
+.nav{
+  grid-row: 2;
+  grid-column: 1/2;
+
+
+  &List{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+
+    transition: max-width 0.4s, opacity 0.2s,visibility 0.2s;
+
+    max-width: 290px;
+
+    &Hidden{
+      opacity: 0;
+      visibility: hidden;
+      max-width:0;
+    }
+  }
+}

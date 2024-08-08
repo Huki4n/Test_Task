@@ -1,0 +1,20 @@
+.docLink{
+  display:flex;
+  gap:0.5rem;
+
+  justify-self: flex-end;
+
+  grid-row: 1;
+  & img{
+    width:17px;
+  }
+}
+
+.link{
+  color:#FF6600;
+  padding-bottom: 2px;
+
+  &:hover{
+    border-bottom: 1px solid #FF6600;
+  }
+}

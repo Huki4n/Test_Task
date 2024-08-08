@@ -1,0 +1,16 @@
+.header{
+
+  grid-row: 1;
+  grid-column: 1/3;
+
+  justify-self: flex-start;
+
+  display: flex;
+  justify-content: space-between;
+
+  background: #FFFFFF;
+
+  padding:1rem;
+
+  width: 100vw;
+}

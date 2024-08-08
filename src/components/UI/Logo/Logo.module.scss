@@ -1,0 +1,11 @@
+.logo{
+  display: flex;
+  gap: 0.5rem;
+
+  &Image{
+    align-self: center;
+  }
+  &ImageVersion{
+    align-self: start;
+  }
+}

@@ -1,0 +1,29 @@
+.checkbox{
+  display: inline-flex;
+  gap:1rem;
+
+  color: #172139;
+  &Input{
+    visibility: hidden;
+    &:after {
+      content: "";
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      margin-top: -1px;
+
+      background-color: var(--color-grey);
+      border:1px solid var(--color-orange);
+      display: inline-block;
+      visibility: visible;
+    }
+    &:checked:after {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--color-orange);
+      content: url('../../../../assets/Interactions/checked.svg');
+
+    }
+  }
+}

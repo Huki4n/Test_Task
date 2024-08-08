@@ -1,0 +1,16 @@
+.navItem{
+  background: #FFFFFF;
+
+  display: flex;
+  gap:1rem;
+
+  padding: 1rem 1.5rem;
+  color:var(--color-dark);
+
+  cursor: pointer;
+
+  &Active{
+    background: var(--color-dark);
+    color: var(--color-grey);
+  }
+}

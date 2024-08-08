@@ -1,0 +1,93 @@
+.table{
+  font: 500 14px 'Montserrat', sans-serif;
+
+  &Head{
+    height: 40px;
+    padding-bottom: 18px;
+  }
+  border-collapse: collapse;
+  color: var(--color-dark);
+
+  &BodyH{
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 22px 30px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    &Flex{
+      display: flex;
+      align-items: center;
+      gap:10px;
+    }
+  }
+  &HeadH{
+    font-size: 13px;
+    font-weight: 400;
+
+    &:nth-child(1){
+      width:405px;
+      border-left: none;
+    }
+    &:nth-child(2){
+      width:124px;
+    }
+    &:nth-child(3){
+      width:173px;
+    }
+    &:nth-child(4){
+      width:152px;
+    }
+    &:nth-child(5){
+      width:206px;
+    }
+    &:nth-child(6){
+      width:206px;
+    }
+    &:nth-child(7){
+      width:168px;
+    }
+    &:nth-child(8){
+      width:116px;
+      padding: 0 30px;
+    }
+    border-left: 1px dotted #C4C4C4;
+  }
+  &R{
+    &:nth-child(2n-1){
+      background-color: white;
+      border-radius: var(--radius-border-radius);
+    }
+  }
+  &D{
+    text-align: center;
+    vertical-align: middle;
+
+    &Border{
+      width: 81px;
+      margin: 0 auto;
+      padding: 6px 0;
+
+      background-color:white;
+      border: 1px solid #EFEFEF;
+    }
+
+    &Flex{
+      display: flex;
+      gap:10px;
+      justify-content: center;
+      align-items: center;
+    }
+    &:nth-child(6){
+      margin: 0 auto;
+    }
+    &:nth-child(7){
+      margin: 0 auto;
+    }
+    &:nth-child(8){
+      margin: 0 auto;
+    }
+  }
+}

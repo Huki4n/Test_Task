@@ -1,0 +1,30 @@
+.closeNavButton{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.5rem 54px;
+
+  gap:0.75rem;
+
+  min-width: 290px;
+}
+
+.cornerRotate{
+  position: relative;
+  rotate: 180deg
+}
+.text{
+  color: #FF6600;
+}
+.img{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  &Hidden{
+    visibility: hidden;
+  }
+}
+.pointer{
+  cursor: pointer
+}
